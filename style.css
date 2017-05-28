@@ -1,0 +1,350 @@
+/* General */
+html, body {
+    height: 100%;
+    font-family: "Open Sans";
+}
+
+body {
+    position: relative;
+}
+
+
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: "Segoe UI";
+}
+
+a:focus {
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+/* Carousel */
+#carousel {
+   height: 50%;
+}
+
+#carousel .img-fluid {
+    
+    width: 100%;
+    object-fit: cover;
+    height: 100%; 
+    
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-caption {
+    bottom: 20%;
+    
+}
+
+.carousel-item:after {
+    
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.8));
+    content: "";
+}
+
+.cta-button {
+   
+    margin: 0 auto;
+    background: #e67e22;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid #e67e22;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #e67e22;
+}
+
+.blockquote-footer {
+    color: #f7f7f7;
+}
+
+@media (max-width: 450px) {
+    .carousel-caption h3, .carousel-caption img {
+        display: none;
+    }
+}
+
+/* menu */
+#menu {
+    background-color: #1a1b1c;
+    width: 100%;
+   
+}
+
+#main-navbar {
+    background: #1a1b1c;
+}
+
+#search {
+    margin-left: 50px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    #search {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+/* Features */
+
+#features {
+    
+    padding: 100px 0;
+    
+}
+
+#features h3 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    
+    text-align: center;
+}
+
+.section-heading {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#features .card-block {
+    padding: 10px;
+    background-color: #DDDDDD;
+}
+
+
+.card-block p {
+    display: inline;
+    font-size: 18px;
+   
+    
+}
+
+.card-description {
+    padding: 20px 10px 10px 10px;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 20px 0;
+    }
+}
+
+.card-block i {
+    float: right;
+    font-size: 20px;
+    vertical-align: baseline;
+}
+
+
+.about-button {
+    width: 80%;
+    margin: 0 auto;
+    background: inherit;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 24px;
+    white-space: normal;
+    
+}
+
+.about-button:hover {
+    background: #e67e22;
+    color: white;
+}
+
+.modal-body img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Contact */
+#contact {
+    background-color: #292B2C;
+    color: white;
+    padding: 150px 0;
+    clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 30px;
+    background: inherit;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit-button:hover {
+    background: #e67e22;
+    color: white;
+}
+
+.table {
+    width: 80%;
+    margin-left: auto;
+   
+}
+
+.table i {
+    margin-left: 10px;
+}
+
+.table-row p {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    
+    .table {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+}
+
+#faq {
+    
+    padding: 100px 0;
+    
+}
+
+#faq button {
+    cursor: pointer;
+    font-size: 20px;
+    white-space: normal;
+}
+
+.collapse-item {
+    margin-bottom: 50px;
+}
+
+.button-collapsible:hover {
+    background: #292B2C;
+    color: white;
+    
+}
+
+
+
+
+
+
+/* Footer */
+#footer {
+    padding: 50px 0;
+    background-color: #292B2C;
+    color: rgba(255,255,255,.5);
+}
+
+#footer .middle-column {
+    text-align: center;
+}
+
+#footer h4 {
+    color: white;
+}
+
+.left-column h4 {
+    padding-left: 40px;
+ 
+}
+
+.right-column h4 {
+    padding-right: 25px;
+ 
+}
+
+#footer-info {
+    list-style: none;
+}
+
+#footer .right-column {
+    text-align: right;
+}
+
+#footer a {
+    color: inherit;
+}
+
+#footer a:hover {
+    color: gray;
+}
+
+@media (max-width: 576px) {
+    
+    #footer .left-column, #footer .middle-column, #footer .right-column {
+        text-align: center;
+    }
+    
+    #footer ul {
+        padding: 0;
+    }
+    
+    #footer li {
+        margin: 0;
+    }
+    
+    .left-column h4, .right-column h4 {
+        padding: 0;
+        text-align: center;
+    }
+    
+    #footer .col-sm-4 {
+        margin: 30px 0;
+    }
+    
+}

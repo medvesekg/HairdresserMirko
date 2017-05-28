@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <title>Hairdresser Mirko</title>
+    
+</head>
+
+
+<body>
+      
+    
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+           
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="slide1.jpg" alt="First slide">
+                <div class="carousel-caption">
+                   <h3>Hairdresser Mirko</h3>
+                   <img src="logo.png">
+                   <h4>Najboljši frizer v mestu</h4>
+                   <a class="btn cta-button" href="#contact" id="main-cta-button">Naročite se še danes</a>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="slide2.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <p>&ldquo;Mirko je res najboljši.&rdquo;</p>
+                    <div class="blockquote-footer">Neka stranka</div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="slide3.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                    <p>&ldquo;Mirko je daleč pred konkurenco.&rdquo;</p>
+                    <div class="blockquote-footer">Strokovni ocenjevalec</div>
+                </div>
+            </div>
+            
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <div id="menu">
+        <div class="container-fluid">
+            <nav class="navbar navbar-toggleable-md navbar-inverse" id="main-navbar">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Hairdresser Mirko</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#features">Kaj nudimo<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Naroči se</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" href="#" data-target="#modal">O nas</a>
+                      </li>
+                    </ul>
+                <form class="form-inline my-2 my-lg-0" id="search">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Iskalnik">
+                </form>
+                </div>
+            </nav>  
+        </div>
+    </div>
+    
+    <div id="features">
+        <div class="container">
+            <div class="row section-heading">
+                <h2 class="display-4" data-aos="fade" data-aos-duration="1000">Kaj nudimo?</h2>
+            </div>
+            <div class="row cards">
+               
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade" data-aos-duration="1000">
+                        <div class="card-block">
+                        <p class="card-text">Nega las</p>
+                        <i class="fa fa-heart"></i>
+                        </div>
+                        <img class="card-img-bottom" src="nega.jpg" alt="Card image cap">
+                        <p class="card-description">Lorem ipsum dolor sit amet, pro meis forensibus honestatis te, te eum nonumes necessitatibus, alia posse possim eos ei. At pro aliquip indoctum, ex quas affert abhorreant vis.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="card-block">
+                            <p class="card-text">Barvanje</p>
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <img class="card-img-bottom" src="barvanje.jpg" alt="Card image cap">
+                        <p class="card-description">Lorem ipsum dolor sit amet, pro meis forensibus honestatis te, te eum nonumes necessitatibus, alia posse possim eos ei. At pro aliquip indoctum, ex quas affert abhorreant vis.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="card-block">
+                            <p class="card-text">Striženje</p>
+                            <i class="fa fa-scissors"></i>
+                        </div>
+                        <img class="card-img-bottom" src="strizenje.jpg" alt="Card image cap">
+                        <p class="card-description">Lorem ipsum dolor sit amet, pro meis forensibus honestatis te, te eum nonumes necessitatibus, alia posse possim eos ei. At pro aliquip indoctum, ex quas affert abhorreant vis.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <h3 data-aos="fade-up">Vas še nismo prepričali?</h3>
+            <div class="row call-to-action">
+                <button class="btn btn-block about-button" data-toggle="modal" data-target="#modal" data-aos="fade-up">Preberite zakaj smo najboljši</button>
+                
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">O nas</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati s profesionalno lasno kozmetiko Indola, ki jo oni distributirajo.</p>
+                          <p>Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo</p>
+                          <p>Pri nas je dobrodošel vsak, prepričani smo da bomo želji vsakega posameznika lahko ustregli v našem delovnem času. Pravijo da ni pomembna dolžina las temveč šteje le urejena pričeska.</p>
+                          <img src="salon.jpg">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="contact">
+        <div class="container">
+           <div class="row section-heading">
+               <h2 class="display-4" data-aos="fade">Naroči se</h2>
+           </div>
+            <div class="row">
+               
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group" data-aos="fade-right">
+                            <label for="name">Ime in priimek</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group" data-aos="fade-right">
+                            <label for="phone">Telefonska številka</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="form-group" data-aos="fade-right">
+                            <label for="date">Termin</label>
+                            <input type="text" class="form-control" id="date">
+                        </div>
+                        <div class="form-group" data-aos="fade-right">
+                            <label for="additional">Nam želite še kaj sporočiti?</label>
+                            <textarea id="additional" class="form-control" rows="5"></textarea>
+                        </div>
+                        <div class="form-check" data-aos="fade-right">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                Strinjam se, da je Mirko najboljši frizer
+                            </label>
+                        </div>
+                        <button type="submit" class="btn submit-button" data-aos="fade-right" data-aos-offset="-200">Pošlji</button>
+                    </form>
+                </div>
+                
+                <div class="col-md-6 table-row">
+                    <table class="table" data-aos="slide-left" data-aos-offset="-200">
+                        <thead>
+                            <tr>
+                                <th>Dan <i class="fa fa-calendar"></i></th>
+                                <th>Delovne ure <i class="fa fa-clock-o"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ponedeljek</td>
+                                <td>8.00 – 16.00</td>
+                            </tr>
+                            <tr>
+                                <td>Torek</td>
+                                <td>10.00 – 18.00</td>
+                            </tr>
+                            <tr>
+                                <td>Sreda</td>
+                                <td>8.00 – 16.00</td>
+                            </tr>
+                            <tr>
+                                <td>Četrtek</td>
+                                <td>8.00 – 16.00</td>
+                            </tr>
+                            <tr>
+                                <td>Petek</td>
+                                <td>12.00 – 20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Sobota</td>
+                                <td>8.00 – 16.00</td>
+                            </tr>
+                            <tr>
+                                <td>Nedelja</td>
+                                <td>8.00 – 12.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>* Ob praznikih velja nedeljski urnik</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="faq">
+        <div class="container">
+            <h2 class="display-4 section-heading" data-aos="fade">FAQ (Pogosta vprašanja)</h2>
+            
+            <div class="collapse-item" data-aos="fade-up">
+                <button class="btn btn-block button-collapsible" data-toggle="collapse" type="button" data-target="#FAQ1">Kakšen je salon in ekipa?</button>
+                <div class="collapse show" id="FAQ1">
+                    <div class="card card-block">
+                        <p>Salon je prostoren in domač in v njem delajo prijazne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.</p>
+                        <p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati s profesionalno lasno kozmetiko Indola, ki jo oni distributirajo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="collapse-item" data-aos="fade-up">
+                <button class="btn btn-block button-collapsible" data-toggle="collapse" type="button" data-target="#FAQ2">Ali sprejemate hišne ljubljenčke?</button>
+                <div class="collapse" id="FAQ2">
+                    <div class="card card-block">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="collapse-item" data-aos="fade-up">
+                <button class="btn btn-block button-collapsible" data-toggle="collapse" type="button" data-target="#FAQ3">Imate kakšne nagrade s tekmovanj?</button>
+                <div class="collapse" id="FAQ3">
+                    <div class="card card-block">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    <div id="footer" data-aos="slide-up" data-aos-duration="1000">
+        <div class="container-fluid">
+            <div class="row">
+               
+                <div class="col-sm-4 left-column">
+                   <h4>Kontakt</h4>
+                    <ul id="footer-info">
+                        <li>Frizer Mirko s.p.</li>
+                        <li>Davčna št.: 324324234</li>
+                        <li>Frizerska ulica 5, 1000 Ljubljana</li>
+                        <li>Tel.: 01/345435346</li>
+                        <li>Email: frizer.mirko@f-mirko.com</li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-4 middle-column">
+                    <img src="logo.png">
+                    <h4>Hairdresser Mirko</h4>
+                </div>
+                
+                <div class="col-sm-4 right-column">
+                    <h4>Navigacija</h4>
+                    <ul class="nav flex-column right-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Kaj nudimo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Naroči se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Pogosta vprašanja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" href="#" data-target="#modal">O nas</a>
+                        </li>
+                    </ul>    
+                </div>
+                
+            </div>
+        </div>
+    </div>   
+    
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
+
+
+<script>
+    var distance = $('#menu').offset().top;
+    jQuery(document).scroll(function() {
+        if (jQuery(this).scrollTop() > distance) {
+            jQuery('#menu').css({
+               'position': 'fixed',
+               'top': '0',
+               'z-index': '1'
+            });
+        } 
+        else {
+            jQuery('#menu').css('position','static');
+        }
+    });
+    
+    $('body').scrollspy({ target: '#main-navbar' })
+    
+
+    $('a[href*="#"]')
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) {
+                return false;
+              } else {
+                $target.attr('tabindex','-1');
+                $target.focus(); 
+              };
+            });
+          }
+        }
+      });
+    
+    AOS.init({
+        duration: 600,
+    });
+    
+</script>
+   
+    
+</body>
+</html>
