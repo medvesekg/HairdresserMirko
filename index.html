@@ -338,6 +338,8 @@
 
 
 <script>
+    
+    // Sticky navbar
     var distance = $('#menu').offset().top;
     jQuery(document).scroll(function() {
         if (jQuery(this).scrollTop() > distance) {
@@ -352,9 +354,12 @@
         }
     });
     
-    $('body').scrollspy({ target: '#main-navbar' })
+    
+    // ScrollSpy
+    $('body').scrollspy({ target: '#main-navbar' });
     
 
+    //Smooth scrolling
     $('a[href*="#"]')
       .not('[href="#"]')
       .not('[href="#0"]')
@@ -382,8 +387,10 @@
             });
           }
         }
-      });
+    });
     
+    
+    // Animate on scroll
     AOS.init({
         duration: 600,
     });

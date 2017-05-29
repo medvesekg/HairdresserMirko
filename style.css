@@ -4,6 +4,7 @@ html, body {
     font-family: "Open Sans";
 }
 
+
 body {
     position: relative;
 }
@@ -236,11 +237,15 @@ a:focus {
 .table {
     width: 80%;
     margin-left: auto;
-   
+    
 }
 
 .table i {
     margin-left: 10px;
+}
+
+.table-row {
+    overflow: hidden;
 }
 
 .table-row p {
